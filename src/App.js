@@ -20,8 +20,6 @@ function App() {
         setAppointment(prev => [...prev, {title, contact, date, time}])
     };
 
-    console.log('contacts', contacts);
-    console.log('appointments', appointments);
 
     return (
         <>
